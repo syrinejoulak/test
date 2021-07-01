@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+.main-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 158px;
+  height: 63px;
+  margin: 5px 220px 7px 50px;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list > li {
+  list-style: none;
+  padding: 26px 80px 27px 0;
+  color: #1e1f22;
+  font-size: 16px;
+  font-family: Open Sans;
+  line-height: 21.79px;
+}
+
+.nav-list > li:hover {
+  cursor: pointer;
+}
+
+.nav-opt {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-btn {
+  background-image: linear-gradient(
+    47.99deg,
+    #2e8174 0%,
+    #30a996 42.53%,
+    #00ffd9 100%
+  );
+  font-family: Open Sans;
+  border-radius: 15px;
+  width: 128px;
+  height: 52px;
+  border: none;
+  padding: 15px 23px 15px 23px;
+  margin: 10px 94px 13px 0;
+}
+
+.nav-btn:hover {
+  cursor: pointer;
+}
+
+.nav-language {
+  color: #1d1f22;
+  font-family: Open Sans;
+  font-size: 16px;
+  line-height: 21.79px;
+  padding: 26px 104px 27px 0;
+  font-weight: 400;
+  margin: 0;
+}
+
+.nav-language:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 375px) {
+  .nav,
+  .nav-opt {
+    display: none;
+  }
+  .main-navigation {
+    background-color: #1d1f22;
+  }
+  .logo {
+    width: 100px;
+    height: 40px;
+    margin: 34px 238px 0 37px;
+  }
+
+  .menu {
+    display: inherit;
+    width: 48px;
+    height: 34px;
+    padding: 55px 56px 0 0;
+  }
+  .menu:hover {
+    cursor: pointer;
+  }
+}

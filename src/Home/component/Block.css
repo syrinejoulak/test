@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+.block {
+  position: absolute;
+  width: 1240px;
+  height: 500px;
+  background-color: #ffffff;
+  box-shadow: 0 100px 100px 0 rgba(236, 236, 236, 0.5);
+  top: 1000px;
+  right: 95px;
+  bottom: 1211px;
+  left: 105px;
+  display: flex;
+}
+
+.block__left {
+  width: 475px;
+  height: 251px;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 40px;
+  text-align: justify;
+  line-height: 48.76px;
+  padding: 119px 0 130px 148px;
+}
+
+.block__right__text {
+  padding: 126px 114px 0 43px;
+  width: 460px;
+  height: 210px;
+  color: #807f7f;
+  font-family: Open Sans;
+  font-size: 19px;
+  text-align: justify;
+  line-height: 25.87px;
+}
+
+.block__right__btn {
+  background-image: linear-gradient(
+    47.99deg,
+    #2e8174 0%,
+    #30a996 42.53%,
+    #00ffd9 100%
+  );
+  border-radius: 15px;
+  width: 150px;
+  height: 50px;
+  border: none;
+  font-family: Open Sans;
+  font-size: 16px;
+  line-height: 21.79px;
+  margin: 60px 208px 0 148px;
+}
+
+.block__right__btn:hover {
+  cursor: pointer;
+}
+
+/* media */
+
+@media only screen and (max-width: 768px) and (min-width: 375px) {
+  .block {
+    position: absolute;
+    width: 655px;
+    height: 436px;
+    background-color: #ffffff;
+    box-shadow: 0 100px 100px 0 rgba(236, 236, 236, 0.5);
+    top: 860px;
+    right: 56px;
+    bottom: 1536px;
+    left: 57px;
+    display: block;
+  }
+
+  .block__left {
+    height: 68px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 25px;
+    line-height: 34.13px;
+    width: 529px;
+    text-align: center;
+    padding: 60px 50px 30px 50px;
+  }
+
+  .block__right__text {
+    padding: 0 104px 30px 100px;
+
+    height: 138px;
+    color: #807f7f;
+    font-family: Open Sans;
+    font-size: 17px;
+    line-height: 23.15px;
+    text-align: justify;
+  }
+
+  .block__right__btn {
+    border-radius: 7px;
+    width: 144px;
+    height: 50px;
+    border: none;
+    font-family: Open Sans;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 30px 212px 0 242px;
+  }
+}

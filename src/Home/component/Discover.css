@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+.discover {
+  background-color: #242726;
+  width: 100%;
+  height: 1037px;
+  position: relative;
+}
+
+.discover__font {
+  height: 1037px;
+  position: absolute;
+  right: 0;
+}
+
+.discover__text-container {
+  padding: 250px 659px 565px 144px;
+}
+
+.discover__title {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 58px;
+  line-height: 70.7px;
+  width: 637px;
+  height: 222px;
+}
+
+.discover__text {
+  color: #bfbebf;
+  font-family: Open Sans;
+  font-size: 19px;
+  text-align: justify;
+  line-height: 25.87px;
+  margin: 15px 150px 0 0;
+  width: 487px;
+  height: 152px;
+}
+
+.discover__btn {
+  border: 3px solid #2e8174;
+  border-radius: 15px;
+  width: 150px;
+  height: 56px;
+  background-color: #242726;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  text-align: center;
+  line-height: 21.79px;
+  padding: 17px 23px 17px 23px;
+  margin: 31px 214px 0 123px;
+}
+
+.discover__btn:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 375px) {
+  .discover {
+    background-color: #1d1f22;
+    width: 100%;
+    height: 832px;
+  }
+
+  .discover__font {
+    height: 832px;
+    position: absolute;
+    width: 768px;
+    right: -420px;
+  }
+
+  .discover__text-container {
+    padding: 189px 331px 460px 53px;
+  }
+
+  .discover__title {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 50px;
+    line-height: 60.95px;
+    width: 384px;
+    text-align: left;
+    height: 183px;
+  }
+
+  .discover__text {
+    color: #bfbebf;
+    font-family: Open Sans;
+    font-size: 17px;
+    line-height: 23.15px;
+    width: 384px;
+    text-align: justify;
+    margin: 4px 327px 0 0;
+    height: 161px;
+  }
+
+  .discover__btn {
+    border: 2px solid #2e8174;
+    border-radius: 7px;
+    width: 138px;
+    height: 49px;
+    background-color: #1d1f22;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding: 14px 20px 15px 20px;
+    margin: 20px 148px 0 155px;
+  }
+}
