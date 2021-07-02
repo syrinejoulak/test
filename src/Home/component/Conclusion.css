@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 
 .conclusion {
   text-align: center;
@@ -49,13 +49,12 @@
   cursor: pointer;
 }
 
-/* media */
 
 @media only screen and (max-width: 768px) and (min-width: 375px) {
   .trait {
     width: 97px;
     height: 32px;
-    margin: 405px 613px 45px 58px;
+    padding: 405px 613px 45px 58px;
   }
   .conclusion {
     text-align: center;
@@ -95,3 +94,49 @@
     margin: 55px auto 75px auto;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .trait {
+    width: 55px;
+    height: 19px;
+    margin: auto;
+    padding-top: 259px;
+  }
+  .conclusion {
+    text-align: center;
+    width: 375px;
+    height: 2240px;
+  }
+
+  .conclusion__title {
+    font-size: 18px;
+    line-height: 21.94px;
+    width: 318px;
+    text-align: center;
+    padding: 0 26px 15px 31px;
+  }
+
+  .conclusion__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .conclusion__btn {
+    background-image: linear-gradient(
+      47.99deg,
+      #2e8174 0%,
+      #30a996 42.53%,
+      #00ffd9 100%
+    );
+    border-radius: 7px;
+    width: 267px;
+    height: 50px;
+    border: none;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 55px auto 75px auto;
+  }
+} */

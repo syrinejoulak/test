@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 
 .block {
   position: absolute;
-  width: 1240px;
   height: 500px;
   background-color: #ffffff;
   box-shadow: 0 100px 100px 0 rgba(236, 236, 236, 0.5);
@@ -57,7 +56,7 @@
   cursor: pointer;
 }
 
-/* media */
+
 
 @media only screen and (max-width: 768px) and (min-width: 375px) {
   .block {
@@ -106,3 +105,41 @@
     margin: 30px 212px 0 242px;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .block {
+    position: absolute;
+    width: 299px;
+    height: 424px;
+    top: 584px;
+    right: 36px;
+    bottom: 1232px;
+    left: 40px;
+    display: block;
+  }
+
+  .block__left {
+    height: 62px;
+    font-size: 18px;
+    line-height: 21.94px;
+    width: 265px;
+    padding: 40px 18px 16px 16px;
+  }
+
+  .block__right__text {
+    padding: 0 30px 30px 30px;
+    width: 237px;
+    height: 209px;
+    color: #807f7f;
+    font-size: 14px;
+    line-height: 19.07px;
+  }
+
+  .block__right__btn {
+    width: 111px;
+    height: 37px;
+    font-size: 12px;
+    line-height: 16.34px;
+    margin: auto 96px auto 92px;
+  }
+} */

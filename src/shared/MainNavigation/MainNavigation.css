@@ -11,24 +11,19 @@
 .logo {
   width: 158px;
   height: 63px;
-  margin: 5px 220px 7px 50px;
-}
-
-.nav {
-  margin: 0;
-  padding: 0;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 .nav-list {
   display: flex;
   flex-direction: row;
-  margin: 0;
-  padding: 0;
 }
 
 .nav-list > li {
   list-style: none;
-  padding: 26px 80px 27px 0;
+  padding-top: 26px;
+  padding-left: 2rem;
   color: #1e1f22;
   font-size: 16px;
   font-family: Open Sans;
@@ -42,8 +37,6 @@
 .nav-opt {
   display: flex;
   flex-direction: row;
-  margin: 0;
-  padding: 0;
 }
 
 .nav-btn {
@@ -59,7 +52,7 @@
   height: 52px;
   border: none;
   padding: 15px 23px 15px 23px;
-  margin: 10px 94px 13px 0;
+  margin: 26px 94px 13px 80px;
 }
 
 .nav-btn:hover {
@@ -71,20 +64,22 @@
   font-family: Open Sans;
   font-size: 16px;
   line-height: 21.79px;
-  padding: 26px 104px 27px 0;
+  padding: 26px 80px 27px 0;
   font-weight: 400;
-  margin: 0;
 }
 
 .nav-language:hover {
   cursor: pointer;
 }
+/* media */
 
 @media only screen and (min-width: 768px) {
   .menu {
     display: none;
   }
 }
+
+/* tablet */
 
 @media only screen and (max-width: 768px) and (min-width: 375px) {
   .nav,
@@ -94,19 +89,47 @@
   .main-navigation {
     background-color: #1d1f22;
   }
+
+  .logo {
+    width: 173;
+    height: 69px;
+    margin-top: 39px;
+    margin-left: 50px;
+  }
+
+  .menu {
+    display: inherit;
+    width: 70px;
+    height: 54px;
+    margin-top: 39px;
+    margin-right: 50px;
+  }
+  .menu:hover {
+    cursor: pointer;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 375px) {
+  .nav,
+  .nav-opt {
+    display: none;
+  }
+  .main-navigation {
+    background-color: #1d1f22;
+  }
+
   .logo {
     width: 100px;
     height: 40px;
-    margin: 34px 238px 0 37px;
+    margin-top: 34px;
+    margin-left: 37px;
   }
 
   .menu {
     display: inherit;
     width: 48px;
-    height: 34px;
-    padding: 55px 56px 0 0;
-  }
-  .menu:hover {
-    cursor: pointer;
+    height: 40px;
+    margin: 34px 20px 0 0;
   }
 }

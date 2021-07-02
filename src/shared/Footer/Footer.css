@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
   background-color: #242726;
   width: 100%;
   padding: 0;
@@ -94,7 +94,7 @@
   padding-top: 57px;
 }
 
-/* media */
+
 
 @media only screen and (max-width: 768px) and (min-width: 375px) {
   .footer {
@@ -158,4 +158,4 @@
     padding-top: 57px;
     padding-bottom: 59px;
   }
-}
+} */
