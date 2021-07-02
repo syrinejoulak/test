@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 
 .block {
@@ -14,19 +14,19 @@
 }
 
 .block__left {
-  width: 475px;
-  height: 251px;
+  width: 45vw;
+  height: 70vh;
   color: #000000;
   font-family: Montserrat;
   font-size: 40px;
   text-align: justify;
   line-height: 48.76px;
-  padding: 119px 0 130px 148px;
+  margin: 15vh 0 15vh 10vw;
 }
 
 .block__right__text {
-  padding: 126px 114px 0 43px;
-  width: 460px;
+  padding: 126px 10vw 0 43px;
+  width: 35vw;
   height: 210px;
   color: #807f7f;
   font-family: Open Sans;
@@ -49,22 +49,21 @@
   font-family: Open Sans;
   font-size: 16px;
   line-height: 21.79px;
-  margin: 60px 208px 0 148px;
+  margin-top: 60px;
+}
+
+.block__right {
+  text-align: center;
 }
 
 .block__right__btn:hover {
   cursor: pointer;
 }
 
-
-
-@media only screen and (max-width: 768px) and (min-width: 375px) {
+@media only screen and (max-width: 768px) and (min-width: 425px) {
   .block {
-    position: absolute;
-    width: 655px;
+    width: 80vw;
     height: 436px;
-    background-color: #ffffff;
-    box-shadow: 0 100px 100px 0 rgba(236, 236, 236, 0.5);
     top: 860px;
     right: 56px;
     bottom: 1536px;
@@ -73,25 +72,23 @@
   }
 
   .block__left {
-    height: 68px;
-    color: #000000;
-    font-family: Montserrat;
     font-size: 25px;
     line-height: 34.13px;
     width: 529px;
     text-align: center;
-    padding: 60px 50px 30px 50px;
+    margin: 60px 50px 30px 50px;
+    height: 68px;
   }
 
   .block__right__text {
-    padding: 0 104px 30px 100px;
-
+    padding: 0 20px 30px 20px;
     height: 138px;
     color: #807f7f;
     font-family: Open Sans;
     font-size: 17px;
     line-height: 23.15px;
     text-align: justify;
+    width: 565px;
   }
 
   .block__right__btn {
@@ -102,16 +99,16 @@
     font-family: Open Sans;
     font-size: 15px;
     line-height: 20px;
-    margin: 30px 212px 0 242px;
+    margin-top: 0px;
   }
 }
 
-@media only screen and (max-width: 375px) {
+/* mobile */
+@media only screen and (max-width: 426px) {
   .block {
-    position: absolute;
-    width: 299px;
+    width: 80vw;
     height: 424px;
-    top: 584px;
+    top: 684px;
     right: 36px;
     bottom: 1232px;
     left: 40px;
@@ -123,11 +120,11 @@
     font-size: 18px;
     line-height: 21.94px;
     width: 265px;
-    padding: 40px 18px 16px 16px;
+    margin: 40px auto 16px min(16px);
   }
 
   .block__right__text {
-    padding: 0 30px 30px 30px;
+    padding: 0 30px 30px 40px;
     width: 237px;
     height: 209px;
     color: #807f7f;
@@ -140,6 +137,6 @@
     height: 37px;
     font-size: 12px;
     line-height: 16.34px;
-    margin: auto 96px auto 92px;
+    margin-top: 0px;
   }
-} */
+}

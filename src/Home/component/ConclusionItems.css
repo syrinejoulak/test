@@ -1,17 +1,11 @@
-/* .conclusion__item__icon {
-  width: 127px;
-  height: 127px;
-  padding: 0 94px 6px 79px;
+.conclusion__item {
+  text-align: center;
 }
 
-.conclusion__item__text {
-  color: #807f7f;
-  font-family: Open Sans;
-  font-size: 19px;
-  line-height: 25.87px;
-  width: 298px;
-  text-align: justify;
-  padding-right: 3rem;
+.conclusion__item__icon {
+  width: 127px;
+  height: 127px;
+  padding: 0 0px 6px 0px;
 }
 
 .conclusion__item__title {
@@ -21,40 +15,44 @@
   line-height: 30px;
   padding-bottom: 59px;
 }
-.conclusion__item {
-  text-align: center;
+
+.conclusion__item__text {
+  color: #807f7f;
+  font-family: Open Sans;
+  font-size: 19px;
+  line-height: 25.87px;
+  width: 298px;
+  text-align: justify;
+  margin: 0 1rem 0 1rem;
 }
 
-
-
-@media only screen and (max-width: 768px) and (min-width: 375px) {
+/* tablet */
+@media only screen and (max-width: 768px) and (min-width: 426px) {
   .conclusion__item__icon {
     width: 100px;
     height: 100px;
     padding-bottom: 7px;
-    padding-top: 46px;
+    padding-top: 6px;
     text-align: center;
   }
 
-  .conclusion__item__text {
-    color: #807f7f;
-    font-family: Open Sans;
-    font-size: 17px;
-    line-height: 23.15px;
-    width: auto;
-    text-align: justify;
-  }
-
   .conclusion__item__title {
-    color: #000000;
-    font-family: Montserrat;
     font-size: 20px;
     line-height: 24px;
     padding-bottom: 30px;
   }
+
+  .conclusion__item__text {
+    font-size: 17px;
+    line-height: 23.15px;
+    width: auto;
+    text-align: justify;
+    margin: auto 105px 31px 105px;
+  }
 }
 
-@media (max-width: 375px) {
+/* mobile */
+@media only screen and (max-width: 426px) {
   .conclusion__item__icon {
     width: 70px;
     height: 70px;
@@ -63,21 +61,17 @@
     text-align: center;
   }
 
-  .conclusion__item__text {
-    color: #807f7f;
-    font-family: Open Sans;
-    font-size: 14px;
-    line-height: 19.07px;
-    width: 298px;
-    text-align: justify;
-  }
-
   .conclusion__item__title {
-    color: #000000;
-    font-family: Montserrat;
     font-size: 16px;
     line-height: 19px;
-    width: 114px;
     padding-bottom: 30px;
   }
-} */
+
+  .conclusion__item__text {
+    font-size: 14px;
+    line-height: 19.07px;
+    width: auto;
+    text-align: justify;
+    margin: auto 40px auto 40px;
+  }
+}

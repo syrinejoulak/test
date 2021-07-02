@@ -10,7 +10,7 @@ function App() {
     <React.Fragment>
       <MainNavigation />
       <HomePage />
-      <Footer />
+      {/* <Footer /> */}
     </React.Fragment>
   );
 }
