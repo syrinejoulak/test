@@ -60,7 +60,7 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 425px) {
+@media only screen and (max-width: 768px) and (min-width: 426px) {
   .block {
     width: 80vw;
     height: 436px;
