@@ -129,6 +129,7 @@
     background: #1d1f22;
     font-size: 17px;
     line-height: 23px;
+    padding: 12px 28px 15px 28px;
   }
 
   .email-input::placeholder {
@@ -187,7 +188,7 @@
   .email-btn {
     font-size: 14px;
     line-height: 19px;
-    padding: 9px;
+    padding: 12px 16px 15px 16px;
   }
 
   .email-input::placeholder {
