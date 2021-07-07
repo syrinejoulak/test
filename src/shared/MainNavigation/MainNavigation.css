@@ -71,6 +71,9 @@
 .nav-language:hover {
   cursor: pointer;
 }
+.side-drawer {
+  display: none;
+}
 /* media */
 
 @media only screen and (min-width: 768px) {
@@ -107,6 +110,19 @@
   .menu:hover {
     cursor: pointer;
   }
+
+  .nav-list__side-drawer > li {
+    list-style: none;
+    padding-top: 40px;
+    padding-left: 3rem;
+    color: #1e1f22;
+    font-size: 20px;
+    font-family: Open Sans;
+  }
+
+  .nav-list__side-drawer > li:hover {
+    cursor: pointer;
+  }
 }
 
 /* mobile */
@@ -131,5 +147,18 @@
     width: 48px;
     height: 40px;
     margin: 34px 20px 0 0;
+  }
+
+  .nav-list__side-drawer > li {
+    list-style: none;
+    padding-top: 30px;
+    padding-left: 2rem;
+    color: #1e1f22;
+    font-size: 16px;
+    font-family: Open Sans;
+  }
+
+  .nav-list__side-drawer > li:hover {
+    cursor: pointer;
   }
 }
