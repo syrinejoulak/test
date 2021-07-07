@@ -32,6 +32,8 @@
 
 .nav-list > li:hover {
   cursor: pointer;
+  font-size: 18px;
+  color: #2e8174;
 }
 
 .nav-opt {
@@ -110,6 +112,9 @@
   .menu:hover {
     cursor: pointer;
   }
+  .side-drawer {
+    display: block;
+  }
 
   .nav-list__side-drawer > li {
     list-style: none;
@@ -122,6 +127,8 @@
 
   .nav-list__side-drawer > li:hover {
     cursor: pointer;
+    font-size: 23px;
+    color: #2e8174;
   }
 }
 
@@ -133,6 +140,10 @@
   }
   .main-navigation {
     background-color: #1d1f22;
+  }
+
+  .side-drawer {
+    display: block;
   }
 
   .logo {
@@ -160,5 +171,7 @@
 
   .nav-list__side-drawer > li:hover {
     cursor: pointer;
+    font-size: 18px;
+    color: #2e8174;
   }
 }
