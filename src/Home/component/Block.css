@@ -140,3 +140,32 @@
     margin-top: 0px;
   }
 }
+
+/* mobile S */
+
+@media only screen and (max-width: 321px) {
+  .block__left {
+    height: 62px;
+    font-size: 18px;
+    line-height: 21.94px;
+    width: 225px;
+    margin: 40px auto 16px min(16px);
+  }
+
+  .block__right__text {
+    padding: 15px;
+    width: auto;
+    height: 209px;
+    color: #807f7f;
+    font-size: 14px;
+    line-height: 19.07px;
+  }
+
+  .block__right__btn {
+    width: 111px;
+    height: 37px;
+    font-size: 12px;
+    line-height: 16.34px;
+    margin-top: 0px;
+  }
+}

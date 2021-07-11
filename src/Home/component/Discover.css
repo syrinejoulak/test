@@ -147,3 +147,42 @@
     margin: 0 124px 0 90px;
   }
 }
+
+/* mobile S */
+
+@media only screen and (max-width: 321px) {
+  .discover__font {
+    height: 730px;
+    width: 80vw;
+    z-index: 0;
+  }
+
+  .discover__text-container {
+    padding: 143px 29px 0 40px;
+  }
+
+  .discover__title {
+    font-size: 38px;
+    line-height: 48.76px;
+    width: 276px;
+    height: 147px;
+  }
+
+  .discover__text {
+    font-size: 14px;
+    line-height: 19.07px;
+    width: 258px;
+    margin: 5px 37px 0 0;
+    height: 141px;
+  }
+
+  .discover__btn {
+    width: 108px;
+    height: 37px;
+    background-color: #1d1f22;
+    font-size: 9px;
+    line-height: 16.34px;
+    padding: 10px 15px 10px 15px;
+    margin: 0 14px 0 70px;
+  }
+}
